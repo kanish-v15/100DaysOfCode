@@ -4,3 +4,9 @@
 
 // For example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python.
 
+int mySqrt(int x) {
+    long int y = 0;
+    while(y*y<=x){
+        y++;}
+    return y-1;
+}
